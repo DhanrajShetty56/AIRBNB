@@ -8,7 +8,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-st.set_page_config(page_title="AirBnb-Analysis by CHARULATHA!!!", page_icon=":bar_chart:", layout="wide")
+st.set_page_config(page_title="AirBnb-Analysis", page_icon=":bar_chart:", layout="wide")
 
 st.title(":bar_chart:   AirBnb-Analysis")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
@@ -143,13 +143,14 @@ if SELECT == "Explore Data":
 # ----------------------Contact---------------#
 
 if SELECT == "Contact":
-    Name = (f'{"Name :"}  {"CHARULATHA"}')
-    mail = (f'{"Mail :"}  {"charusathya333@gmail.com"}')
+    Name = (f'{"Name :"}  {"Dhanraj"}')
+    mail = (f'{"Mail :"}  {"sonushetty56@gmail.com"}')
+    
+    
     description = "An Aspiring DATA-SCIENTIST..!"
     social_media = {
-        "Youtube": "https://youtube.com/shorts/RFMkHHEVxfg?si=CVTD-DigXTPWobce",
-        "GITHUB": "https://github.com/Charu1111/Guvi_Capstone_bizcardx-.git",
-        "LINKEDIN": "https://www.linkedin.com/in/charulatha-selvaraj-360338277"}
+        "GITHUB": "https://github.com/DhanrajShetty56",
+        "LINKEDIN": "https://www.linkedin.com/in/dhanraj-shetty-03a004217/"}
 
     col1, col2 = st.columns(2)
 
